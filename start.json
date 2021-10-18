@@ -1,0 +1,20 @@
+{
+    "type": "template",
+    "altText": "this is a buttons template",
+    "template": {
+        "type": "buttons",
+        "thumbnailImageUrl": "PROVIDE_URL_FROM_YOUR_SERVER",
+        "imageAspectRatio": "rectangle",
+        "imageSize": "cover",
+        "imageBackgroundColor": "#FFFFFF",
+        "title": "您好我是你的芋頭底迪",
+        "text": "請點選下方開始按鈕，讓我幫助你更了解自己吧！",
+        "actions": [
+            {
+                "type": "postback",
+                "label": "開始使用",
+                "data": "start"
+            }
+        ]
+    }
+}
